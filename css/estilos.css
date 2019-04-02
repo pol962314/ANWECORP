@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;  /* es para que el padding y margin de elementos dentro de una caja sea de la misma */
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 body{
@@ -14,26 +15,33 @@ body{
 
 #frase-emp h2{
     font-family: 'PT Sans Narrow', sans-serif;
-    color: #D9D9D9;
-    padding-top: 8PX;
-    font-size: 20px;
-
+    color: #333;
+    font-weight: bold;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 
 #banner{
     width: 100%;
-    background: white;
+    background: #BDBDBD;
     color: #333;
     display: flex;
     flex-wrap: wrap;
     position: relative;
+    border-bottom: 2px solid #FFF;
 }
 
 #logo{
     width: 40%;
     float: left;
-    text-align: left;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
 }
 
 #frase-emp{
@@ -49,11 +57,15 @@ body{
 #banner img{
     width: 100%;
     height: 100%;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
 }
 
 
 #banner h2{
-    font-size: 12px;
+    font-size: 18px;
     text-align: center;
     padding-left: 1%;
 }
@@ -63,7 +75,6 @@ body{
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
-    padding-top: 48px;
 }
 
 #img-presentacion img{
@@ -76,6 +87,65 @@ body{
 .colorear{
      background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('imagenes/img1.jpg');
 }
+    
+.contacto h2{
+    background: #333;
+    color: papayawhip;
+}
+
+.contacto h2{
+    padding: 16px;
+    font-size: 15px;
+}
+
+
+
+#menu-prin div  {
+    border-bottom: 1px solid #FFF;
+}
+
+#menu-prin div a{
+    padding: 25px;
+    font-weight: bold;
+}
+
+#capacitacion-lista{
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+#consultoria-lista{
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.column img{
+    height: 80px;
+    
+    
+}
+
+#clientes-lista{
+    text-align: center;
+    
+}
+
+
+@media(min-width:450px){
+    div .column a{
+    font-size: 15px;
+    text-align: center;
+}
+    
+
+}
+ @media(min-width:650px){
+    div .column a{
+    font-size: 20px;
+}
+    
+}
+
 
 @media(min-width:768px){
     #banner h2{
@@ -89,11 +159,29 @@ body{
     
     #frase-emp h2{
     font-family: 'PT Sans Narrow', sans-serif;
-    color: #D9D9D9;
+    color: ##333;
     padding-top: 8PX;
     font-size: 20px;
-
 }
+
+    #menu-prin div  {
+    text-align: center;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+}
+    
+    #consultoria-lista{
+    padding-left: 50px;
+    font-size: 26px;
+}
+    #capacitacion-lista{
+    padding-left: 50px;
+    font-size: 26px;
+}
+   
+
 }
 
 @media(min-width:1024px){
@@ -104,20 +192,13 @@ body{
     
     #banner{
         overflow: hidden;
+}
+    div .column a{
+        text-align: center;
     }
-}
-
-.contacto h2{
-    background: #333;
-    color: papayawhip;
-}
-
-.contacto h2{
-    padding: 16px;
-    font-size: 15px;
-}
-
-#logo .img{
-    display: none;
     
 }
+
+
+
+

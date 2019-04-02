@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link href="imagenes/logo-anwecorp-title.ico" type="image/x-icon" rel="shortcut icon" />
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>ANWECORP</title>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minium-scale=1">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/fontello.css">
@@ -11,14 +12,26 @@
 </head>
 <body>
    <section id="banner">
-                <div id="logo">
-                    <img src="imagenes/logo.png" >
-                </div>
+                <section id="logo">
+                    <img src="imagenes/logo-anwecorp.png" >
+                </section>
                 <div class="contenedor" id="frase-emp">
-                    <h2>CORIA ESPECIALIZADA EN SOLUCIONES <br>
+                    <h2>CONSULTORIA ESPECIALIZADA EN SOLUCIONES <br>
                     EMPRESARIALES</h2>
                 </div>
     </section>
+    
+    <section class="hero is-dark">
+         <div class="columns is-gapless" id="menu-prin">
+          <div class="column"><a><font style="vertical-align: inherit;">¿QUIÉNES SOMOS?</font></a></div>
+          <div class="column"><a href="#consultoria"><font style="vertical-align: inherit;">CONSULTORIA</font></a></div>
+          <div class="column"><a href="#capacitacion"><font style="vertical-align: inherit;">CAPACITACIÓN</font></a></div>
+          <div class="column"><a href="#clientes"><font style="vertical-align: inherit;">CLIENTES</font></a></div>
+          <div class="column"><a href="contacto"><font style="vertical-align: inherit;">CONTACTO</font></a></div>
+        </div>
+   </section>
+   
+   <!--
     <header>
             <div class="contenedor">
             
@@ -100,6 +113,7 @@
             </div>
             
     </header>
+    -->
     
     <div id="img-presentacion" class="colorear">
         <img src="imagenes/img1.jpg">
@@ -114,31 +128,32 @@
           </h1>
         </div>
            <br>
-            <div class="columns is-mobile">
-              <div class="column">Relaciones Laborales</div>
-              <div class="column">Recursos Humanos</div>
-            </div>
-            <div class="columns is-mobile">
-              <div class="column">Sistemas de Costos</div>
-              <div class="column">Proyectos de inversión</div>
-            </div>
-            <div class="columns is-mobile">
-              <div class="column">Problemas Financieros</div>
-              <div class="column">Tasaciones y valuación de activos</div>
-            </div>
-            <div class="columns is-mobile">
-              <div class="column">Productividad y Producción</div>
-              <div class="column">Planes de negocio</div>
-            </div>
-            <div class="columns is-mobile">
-              <div class="column">Valorización de empresas</div>
-              <div class="column">Inteligencia de negocios</div>
-            </div>
-            <div class="columns is-mobile">
-              <div class="column">Seguridad Industrial</div>
-              <div class="column">Problemas Ambientales</div>
-            </div>
-
+               <section id="consultoria-lista">
+                <div class="columns is-mobile">
+                  <div class="column">Relaciones Laborales</div>
+                  <div class="column">Recursos Humanos</div>
+                </div>
+                <div class="columns is-mobile">
+                  <div class="column">Sistemas de Costos</div>
+                  <div class="column">Proyectos de inversión</div>
+                </div>
+                <div class="columns is-mobile">
+                  <div class="column">Problemas Financieros</div>
+                  <div class="column">Tasaciones y valuación de activos</div>
+                </div>
+                <div class="columns is-mobile">
+                  <div class="column">Productividad y Producción</div>
+                  <div class="column">Planes de negocio</div>
+                </div>
+                <div class="columns is-mobile">
+                  <div class="column">Valorización de empresas</div>
+                  <div class="column">Inteligencia de negocios</div>
+                </div>
+                <div class="columns is-mobile">
+                  <div class="column">Seguridad Industrial</div>
+                  <div class="column">Problemas Ambientales</div>
+                </div>
+               </section>
       </div>
     </section>
     
@@ -149,16 +164,68 @@
             Capacitación 
           </h1>
         </div>
+            <br>
+            <section id="capacitacion-lista">
+                <div class="columns is-mobile">
+                  <div class="column">Relaciones Humanos</div>
+                  <div class="column">Finanzas</div>
+                </div>
+                <div class="columns is-mobile">
+                  <div class="column">Sistemas Ambientales</div>
+                  <div class="column">Costos de Producción</div>
+                </div>
+                <div class="columns is-mobile">
+                  <div class="column">Organización y Métodos</div>
+                  <div class="column">Producción y Productividad</div>
+                </div>
+                <div class="columns is-mobile">
+                  <div class="column">Gestión Hospitalaria</div>
+                  <div class="column">Gestión Municipal</div>
+                </div>
+                <div class="columns is-mobile">
+                  <div class="column">Contrataciones del Estado</div>
+                  <div class="column">Logística Empresarial</div>
+                </div>
+                <div class="columns is-mobile">
+                  <div class="column">Seguridad Industrial</div>
+                  <div class="column">Riesgos</div>
+                </div>
+                <div class="columns is-mobile">
+                  <div class="column">Inteligencia de Negocios</div>
+                  <div class="column">Proyectos de Inversión</div>
+                </div>
+                <div class="columns is-mobile">
+                  <div class="column">Estudio de Mercado</div>
+                  <div class="column"></div>
+                </div>
+            </section>            
       </div>
     </section>
     
-    <section class="hero is-dark">
+    <section class="hero">
       <div class="hero-body" id="clientes">
         <div class="container">
           <h1 class="title">
             Clientes
           </h1>
         </div>
+        <br>
+        
+        <div class="columns is-vcentered" id="clientes-lista">
+          <div class="column">
+            <p class="bd-notification is-primary"><img src="imagenes/Lindley.jpg" alt=""></p>
+          </div>
+          <div class="column">
+            <p class="bd-notification is-primary"><img src="imagenes/Chinalco.png" alt=""></p>
+          </div>
+          <div class="column">
+            <p class="bd-notification is-primary"><img src="imagenes/Repsol.png" alt=""></p>
+          </div>
+          <div class="column">
+            <p class="bd-notification is-primary"><img src="imagenes/Cerro%20Verde.jpg" alt=""></p>
+          </div>
+        </div>
+        
       </div>
     </section>
     
