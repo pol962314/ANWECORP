@@ -1,0 +1,37 @@
+#info{
+    background: #FFF;
+    color: #333;
+    text-align: center;
+}
+
+#info .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.info-pet{
+    margin: 20px;
+}
+
+.info-pet img{
+    width: 180px;
+    border: 7px solid #fff;
+}
+
+@media (min-width:480px) {
+    .info-pet {
+        width: 40%;
+    }
+}
+
+@media (min-width:1024px) {
+    .info-pet {
+        width: auto;
+    }
+}

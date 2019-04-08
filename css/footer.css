@@ -1,3 +1,8 @@
+footer a:hover{
+    text-decoration: none;
+    color: white;
+}
+
 .contenedor a{
     background: #333;
     display: block;
