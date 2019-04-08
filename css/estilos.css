@@ -204,7 +204,7 @@ body{
     align-items: center;
 }
     #menu-prin div:hover{
-    background: #A4A4A4;
+    background: white;
     }
     
     #consultoria-lista{
@@ -217,8 +217,8 @@ body{
 }
    
     #menu-prin div a{
-        padding-top: 0px;
-        padding-bottom: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
 
@@ -237,8 +237,13 @@ body{
         color: #A4A4A4;
     }
     
+    #menu-prin div a{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
     #menu-prin div:hover{
-        background: #A4A4A4;
+        background: white;
     }
 }
 
