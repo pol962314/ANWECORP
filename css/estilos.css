@@ -159,6 +159,11 @@ body{
         padding-bottom: 0px;
     }
     
+    .contacto-info{
+        font-size: 18px;
+        font-family: 'Fira Sans', sans-serif;
+        font-style: normal;
+    }
 
 }
  @media(min-width:650px){
@@ -170,6 +175,12 @@ body{
      #menu-prin div a{
         padding-top: 0px;
         padding-bottom: 0px;
+    }
+    
+     .contacto-info{
+        font-size: 20px;
+        font-family: 'Fira Sans', sans-serif;
+        font-style: normal;
     }
     
 }
@@ -220,6 +231,12 @@ body{
         padding-top: 20px;
         padding-bottom: 20px;
     }
+    
+    .contacto-info{
+        font-size: 25px;
+        font-family: 'Fira Sans', sans-serif;
+        font-style: normal;
+    }
 }
 
 @media(min-width:1024px){
@@ -244,6 +261,11 @@ body{
     
     #menu-prin div:hover{
         background: white;
+    }
+    .contacto-info{
+        font-size: 30px;
+        font-family: 'Fira Sans', sans-serif;
+        font-style: normal;
     }
 }
 
