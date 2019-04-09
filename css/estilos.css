@@ -111,6 +111,10 @@ body{
     font-size: 15px;
 }
 
+.contacto-info{
+    font-size: 10px;
+}
+
 
 #menu-prin div  {
     border-bottom: 1px solid #FFF;
@@ -138,8 +142,6 @@ body{
 
 .column img{
     height: 80px;
-    
-    
 }
 
 #clientes-lista{
@@ -148,7 +150,7 @@ body{
 }
 
 
-@media(min-width:450px){
+@media(min-width:456px){
     div .column a{
     font-size: 15px;
     text-align: center;
@@ -160,12 +162,23 @@ body{
     }
     
     .contacto-info{
+        font-size: 14px;
+        font-family: 'Fira Sans', sans-serif;
+        font-style: normal;
+    }
+
+}
+
+@media(min-width:540px){
+      
+    .contacto-info{
         font-size: 18px;
         font-family: 'Fira Sans', sans-serif;
         font-style: normal;
     }
 
 }
+
  @media(min-width:650px){
     div .column a{
     font-size: 20px;
