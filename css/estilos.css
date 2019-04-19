@@ -20,8 +20,8 @@ body{
 
 #frase-emp h2{
     font-family: 'PT Sans Narrow', sans-serif;
-    color: white;
-    font-weight: medium;
+    color: #333;
+    font-weight: normal;
     display: flex;
     vertical-align: middle;
     justify-content: center;
@@ -31,8 +31,7 @@ body{
 
 #banner{
     width: 100%;
-    background: #3F3F3F;
-    color: #333;
+    background: #4a6b44;
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -52,6 +51,7 @@ body{
 }
 
 #frase-emp{
+    color:white;
     width: 60%;
     height: 50%;
     float: right;
@@ -71,6 +71,7 @@ body{
     vertical-align: middle;
     justify-content: center;
     align-items: center;
+    border-right: 1px solid white;
 }
 
 
@@ -78,9 +79,8 @@ body{
     font-size: 18px;
     text-align: center;
     padding-left: 1%;
-    color: #A4A4A4;
     font-weight: 600;
-    font-style: normal
+    font-style: normal;
 }
 
 #img-presentacion{
@@ -118,26 +118,35 @@ body{
 
 #menu-prin div  {
     border-bottom: 1px solid #FFF;
-}
-
-#menu-prin div:hover{
-    background: white;
+    background: #333;
 }
 
 #menu-prin div a{
     padding: 25px;
     font-weight: normal;
-    color: #A4A4A4;
+    color: white;
+    width: 100%;
+}
+
+#menu-prin div:hover{
+    background: #3F3F3F;
+    color:#333;
+    text-decoration-color: #333;
 }
 
 #capacitacion-lista{
     padding-left: 20px;
     font-size: 18px;
-}
+}s
 
 #consultoria-lista{
     padding-left: 20px;
     font-size: 18px;
+}
+
+#consultoria{
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
 }
 
 .column img{
@@ -203,6 +212,7 @@ body{
     #banner h2{
         font-size:40px;
         text-align: center;
+        color: #333;
     }
     
     #banner{
@@ -213,11 +223,12 @@ body{
     font-family: 'Fira Sans', sans-serif;
     font-size: 20px;
     font-style: normal;
-    color: white;
+    color: #333;
     display: flex;
     vertical-align: middle;
     justify-content: center;
     align-items: center;
+    font-weight: bold;
 }
 
     #menu-prin div  {
@@ -228,7 +239,7 @@ body{
     align-items: center;
 }
     #menu-prin div:hover{
-    background: white;
+    background: 3F3F3F;
     }
     
     #consultoria-lista{
@@ -256,7 +267,7 @@ body{
     #banner h2{
         font-size: 35px;
         text-align: center;
-        color: #A4A4A4;  
+        color: #333;  
     }
     
     #banner{
@@ -273,7 +284,7 @@ body{
     }
     
     #menu-prin div:hover{
-        background: white;
+        background: #3F3F3F;
     }
     .contacto-info{
         font-size: 30px;
