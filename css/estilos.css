@@ -31,7 +31,7 @@ body{
 
 #banner{
     width: 100%;
-    background: #4a6b44;
+    background: #f3e2ba;
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -71,7 +71,7 @@ body{
     vertical-align: middle;
     justify-content: center;
     align-items: center;
-    border-right: 1px solid white;
+
 }
 
 
@@ -265,9 +265,10 @@ body{
 
 @media(min-width:1024px){
     #banner h2{
-        font-size: 35px;
+        font-size: 45px;
         text-align: center;
-        color: #333;  
+        color: #3F3F3F;  
+        font-weight: bold;
     }
     
     #banner{
