@@ -175,6 +175,12 @@ body{
         font-family: 'Fira Sans', sans-serif;
         font-style: normal;
     }
+    
+    #banner h2{
+        font-size: 20px;
+        color: #333;
+        font-weight: bold;
+     }
 
 }
 
@@ -184,6 +190,11 @@ body{
         font-size: 18px;
         font-family: 'Fira Sans', sans-serif;
         font-style: normal;
+    }
+    
+    #banner h2{
+        font-size: 25px;
+        font-weight: bold;
     }
 
 }
@@ -204,13 +215,17 @@ body{
         font-family: 'Fira Sans', sans-serif;
         font-style: normal;
     }
-    
+     
+     #banner h2{
+         font-size: 30px;
+         font-weight: bold;
+     }
+         
 }
 
 
 @media(min-width:768px){
     #banner h2{
-        font-size:40px;
         text-align: center;
         color: #333;
     }
@@ -221,7 +236,7 @@ body{
     
     #frase-emp h2{
     font-family: 'Fira Sans', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     font-style: normal;
     color: #333;
     display: flex;
@@ -282,6 +297,7 @@ body{
     #menu-prin div a{
         padding-top: 20px;
         padding-bottom: 20px;
+        font-size: 25px;
     }
     
     #menu-prin div:hover{
