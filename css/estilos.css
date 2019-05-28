@@ -31,7 +31,7 @@ body{
 
 #banner{
     width: 100%;
-    background: #f3e2ba;
+    background: #d8c69a;
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -137,7 +137,7 @@ body{
 #capacitacion-lista{
     padding-left: 20px;
     font-size: 18px;
-}s
+}
 
 #consultoria-lista{
     padding-left: 20px;
@@ -155,8 +155,17 @@ body{
 
 #clientes-lista{
     text-align: center;
-    
 }
+
+div .column a{
+    padding: 0px;
+}
+
+#menu-prin div a{
+    padding: 0px;
+    padding-left: 25px;
+}
+
 
 
 @media(min-width:456px){
@@ -204,6 +213,7 @@ body{
     font-size: 20px;
     font-family: 'Fira Sans', sans-serif;
     font-style: normal;
+    padding: 0;
 }
      #menu-prin div a{
         padding-top: 0px;
@@ -292,6 +302,7 @@ body{
     div .column a{
         text-align: center;
         color: #A4A4A4;
+        padding: 0px;
     }
     
     #menu-prin div a{
