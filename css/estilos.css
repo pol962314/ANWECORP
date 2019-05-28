@@ -119,6 +119,7 @@ body{
 #menu-prin div  {
     border-bottom: 1px solid #FFF;
     background: #333;
+    display: block;
 }
 
 #menu-prin div a{
