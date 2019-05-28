@@ -4,10 +4,10 @@
     <link href="imagenes/logo-anwecorp-title.ico" type="image/x-icon" rel="shortcut icon" />
     <meta charset="UTF-8">
     <title>ANWECORP</title>
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minium-scale=1">
+    <meta name="viewport" >
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/fontello.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
     
 </head>
 <body>
@@ -23,7 +23,7 @@
     
     <section class="hero">
          <div class="columns is-gapless" id="menu-prin">
-          <div class="column"><a><font style="vertical-align: inherit;">¿QUIÉNES SOMOS?</font></a></div>
+          <div class="column"><a href="#Somos"><font style="vertical-align: inherit;">¿QUIÉNES SOMOS?</font></a></div>
           <div class="column"><a href="#consultoria"><font style="vertical-align: inherit;">CONSULTORIA</font></a></div>
           <div class="column"><a href="#capacitacion"><font style="vertical-align: inherit;">CAPACITACIÓN</font></a></div>
           <div class="column"><a href="#clientes"><font style="vertical-align: inherit;">CLIENTES</font></a></div>
@@ -118,6 +118,17 @@
     <div id="img-presentacion" class="colorear">
         <img src="imagenes/img1.jpg">
     </div>
+    
+    <section class="hero is-dark">
+      <div class="hero-body" id="Somos">
+        <div class="container">
+          <h1 class="title">
+            ANWECORP
+            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam impedit, laudantium ab voluptatum odio earum perferendis libero ipsum architecto quod consectetur a, aliquam laborum corrupti tenetur, distinctio aliquid vero, at.</h2> 
+          </h1>
+        </div>        
+      </div>
+    </section>
       
     <section class="hero is-dark">
       <div class="hero-body" id="consultoria">
@@ -323,7 +334,7 @@
                   <p class="control has-icons-left">
                     <input class="input" type="Nombre" placeholder="Nombre">
                     <span class="icon is-small is-left">
-                      <i class="fas fa-lock"></i>
+                      <i class="icon-user-o"></i>
                     </span>
                   </p>
                 </div>  
@@ -334,8 +345,8 @@
                    <span class="icon is-small is-left">
                      <i class="fas fa-envelope"></i>
                    </span>
-                   <span class="icon is-small is-right">
-                     <i class="fas fa-check"></i>
+                   <span class="icon is-small is-left">
+                     <i class="icon-mail"></i>
                    </span>
                  </p>
                </div>
@@ -345,6 +356,7 @@
             <div class="field">
               <div class="control">
                 <textarea class="textarea is-medium" placeholder="Escriba aquí sus requerimientos de consultorio o capacitación." rows="4"></textarea>
+                
               </div>
               <br>
                

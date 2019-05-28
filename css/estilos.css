@@ -149,6 +149,10 @@ body{
     border-top: 2px solid white;
 }
 
+#Somos{
+    border-top: 2px solid white;
+}
+
 .column img{
     height: 80px;
 }
@@ -163,10 +167,8 @@ div .column a{
 
 #menu-prin div a{
     padding: 0px;
-    padding-left: 25px;
+    padding-left: 20px;
 }
-
-
 
 @media(min-width:456px){
     div .column a{
@@ -234,7 +236,12 @@ div .column a{
 }
 
 
-@media(min-width:768px){
+@media(min-width:769px){
+    #menu-prin div a{
+    padding: 0px;
+    padding-left: 0px;
+}
+    
     #banner h2{
         text-align: center;
         color: #333;
@@ -289,6 +296,11 @@ div .column a{
 }
 
 @media(min-width:1024px){
+    #menu-prin div a{
+    padding: 0px;
+    padding-left: 0px;
+}
+    
     #banner h2{
         font-size: 45px;
         text-align: center;
